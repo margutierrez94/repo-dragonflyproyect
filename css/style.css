@@ -1,0 +1,329 @@
+* {
+  margin: 0;
+  padding: 0%;
+}
+header {
+  background: #dbc4c5;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.logo-nav-container{
+  margin-right: 70px;
+  margin: 0 ;
+}
+
+.header a {
+  color: #413b3b;
+  text-decoration: none;
+  margin-right: 150px;
+  font-size: 20px;
+  font-family: "Courgette", cursive;
+}
+.empresa-logo{
+  width: 125px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 30px;
+  
+}
+.logo-nav-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.logo{
+  letter-spacing: 5px;
+  font-size: 1.3em;
+}
+.navegation ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  
+}
+.navegation ul li{
+  display: inline-block;
+}
+.navegation ul li a{
+  display: block;
+  padding: 0.5rem 1rem;
+  transition: all 0.4s linear;
+  border-radius: 5px;
+}
+.navegation ul li a:hover{
+background: #f6eabe;
+}
+
+
+
+#main {
+  height: calc(100vh);
+  background-image: url("/imgen/Fondo\ de\ pantalla\ Natural.png");
+  background-size: cover;
+}
+.main-content {
+  max-width: 1300px;
+  height: 100%;
+  margin: 0 auto;
+}
+.main-content-info {
+  display: block;
+padding-top: 200px;
+padding-left: 740px;
+color: #6b5454;
+}
+
+.main-content-info h1 {
+  font-family: "Courgette", cursive;
+  font-size: 48px;
+  font-weight: 150px;
+  color: rgb(131, 80, 80);
+  padding-top: 230px;
+  padding-right: 40px;
+}
+.btn {
+  font-family: "Courgette", cursive;
+  font-size: 30px;
+  color: black;
+  background: rgb(131, 80, 80);
+  border: solid 1px black;
+  border-radius: 3px;
+  text-decoration: none;
+}
+.btn:hover {
+  background: #f6eabe;
+  color: black;
+  font-size: 30px;
+}
+@media (max-width:700px){
+  header{
+    flex-direction: column;
+  }
+  nav ul li a {
+    padding: 10px 0px;
+  }
+}
+
+
+
+#somos{
+  background-image: url(/imgen/Fondo\ de\ Pantalla\ Marco\ Floral\ Vintage.png);
+  background-size: 100vw 100vh;
+  background-attachment: fixed;
+  margin: 0;
+  
+}
+.producto p{
+  font-family: "Courgette", cursive;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 150px;
+  color: rgb(131, 80, 80);
+  width: 450px;
+  margin: auto;
+  padding: 60px 60px;
+}
+
+
+
+
+#coleccion{
+  text-align: center;
+  font-family: "Courgette", cursive;
+  font-size: 30px;
+  color: #413b3b;
+}
+
+.galeria {
+      display: grid;      
+      grid-template-columns: repeat(auto-fit,minmax(230px,1fr));
+      width: 90%;
+      margin: auto;
+      grid-gap: 110px;
+      padding: 40px 0px;
+      overflow: auto;
+      
+}
+.galeria img{
+  width: 100%;
+  vertical-align: top;
+  height: 170px;
+  object-fit: cover;
+  transition: transform 0.5s;
+} 
+.galeria > a{
+    display: block;
+    position: relative absolute; 
+    overflow: hidden; 
+    box-shadow: 0 0 20px rgba(0, 0 , 0 , 5);
+    text-decoration: none;
+    border-radius: 7px;
+} 
+
+h3{
+font-family: 'Courgette', cursive;
+text-align: center;
+font-weight: 20px;
+color: #413b3b;
+
+}
+.button{
+  
+  background: #dbc4c5;
+  font-family: "Courgette", cursive;
+  font-size: 20px;
+  font-style: italic;
+  padding: 10px;
+  border-radius: 10px;
+}
+.button:hover{
+  background: #f6eabe;
+  font-family: "Courgette", cursive;
+  font-size: 20px;
+  font-style: italic;
+  padding: 10px;
+  border-radius: 10px;
+}
+/* @media screen and(max-widt:400px){
+  .galeria{
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+  }
+  .close{
+    top: 20px;
+    right: 20px;
+  }
+} */
+
+.modal-header{
+  background: #dbc4c5;
+  color: #6b5454;
+}
+.modal-body form{
+margin-top: 10px;
+}
+.modal-body  img{
+ width: 350px;
+ height: 300px;
+}
+.modal-tittle{
+  margin-left: 150px;
+  font-size: 25px;
+}
+.form-label{
+  color: black;
+}
+.botones{
+  background: #f6eabe;
+  font-size: 20px;
+  width: 100px;
+  height: 100px;
+  margin-right: 90px;
+}
+.botones:hover{
+  font-size: 15px;
+  background: #851919;
+  width: 100px;
+  height: 100px;
+}
+
+
+
+
+
+#section-contacto{
+  background-image: url(/imgen/Fondo\ de\ Pantalla\ Marco\ Floral\ Vintage.png);
+  background-size: 100vw 100vh;
+  background-attachment: fixed;
+  margin: 0;
+  font-family: monospace;
+  padding: 30px 30px;
+}
+form{
+  width: 450px;
+  margin: auto;
+  background: #f6eabe;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin-top: 50px;
+  border-radius: 7px;
+}
+#contacto{
+  color: #413b3b;
+  font-family: "Courgette", cursive;
+  text-align: center;
+  margin: 0;
+  font-size: 30px;
+  margin-bottom: 20px;
+
+}
+input, textarea{
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+  font-size: 17px;
+  border: none;
+}
+textarea{
+  min-height: 100px;
+  max-height: 200px;
+  max-width: 100%;
+}
+#boton{
+  background: #dbc4c5;
+  padding: 20px;
+}
+#boton:hover{
+  cursor: pointer;
+  
+} 
+
+@media (max-width:480px){
+  form{
+    width: 100%;
+  }
+}
+.gracias{
+  text-align: center;
+  color: #6b5454;
+  font-size: 40px;
+  background: rgba(0, 0 , 0 , 4);
+  margin-top: 20px;
+}
+.PuntodeEncuentro {
+  color: #413b3b;
+  font-family: "Courgette", cursive;
+  font-size: 30px;
+  margin: 130px 300px;
+}
+.mapa{
+  display: flex;
+}
+.encuentro-contacto{
+  color: #413b3b;
+  font-family: "Courgette", cursive;
+  font-size: 30px;
+  margin-top: 70px;
+}
+
+
+
+.colorfooter{
+  background: #f6eabe;
+
+}
+.colortextofooter{
+  color: black;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding: 15px;
+
+  
+}
+
+
+
